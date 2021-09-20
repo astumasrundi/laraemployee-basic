@@ -18,7 +18,7 @@
 1. **Clone Repository**
 ```bash
 git clone https://github.com/astumasrundi/laraemployee-basic.git
-cd pegawai
+cd laraemployee-basic
 composer install
 copy .env.example .env
 ```
