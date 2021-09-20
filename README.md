@@ -1,3 +1,5 @@
+<h1 align="center">Selamat datang di Aplikasi Data Kepegawaian Sederhana 👋</h1>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -6,6 +8,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+### 📆 Release Date
+- 20 September 2021
+
+
+## 💻 Install
+
+1. **Clone Repository**
+```bash
+git clone https://github.com/astumasrundi/laraemployee-basic.git
+cd pegawai
+composer install
+copy .env.example .env
+```
+
+2. **Buka ```.env``` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai, karena di project ini menggunakan MySQL jadi saya kasih contoh seperti berikut, dan jika kamu ingin menggunakan PostgresSQL atau lainnya tinggal sesuaikan.**
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=pegawai
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+3. **Instalasi website**
+```bash
+php artisan key:generate
+php artisan migrate
+```
+
+4. **Jalankan website**
+```command
+php artisan serve
+```
+
+
+## 🧑 Author
+
+👤 <a href="https://github.com/astumasrundi"> **Astu Masrundi**</a>
+- LinkedIn : <a href="https://id.linkedin.com/in/astumasrundi"> Astu Masrundi</a>
+- Instagram : <a href="https://www.instagram.com/astumasrundi"> Astu Masrundi</a>
+
 
 ## About Laravel
 
